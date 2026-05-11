@@ -20,7 +20,9 @@ Always load `references/core.md` first, then the relevant topic reference:
 | Complete examples | `references/examples.md` |
 | API quick reference tables | `references/api-reference.md` |
 
+Visualize the model via the VSCode `ocp-cad-viewer` plugin: ensure `ocp-vscode` is in the project (`uv add ocp-vscode` if missing), then `from ocp_vscode import show; show(obj)`.
+
 Key rules:
 - Always parametric — dimensions as named variables, never magic numbers inline
 - Prefer the Fluent API; drop to lower layers only when necessary
-- Export STEP for manufacturing, STL for 3D printing
+- Visualize the model by default, export STEP for manufacturing or STL for 3D printing if explicitly instructed
