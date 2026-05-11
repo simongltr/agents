@@ -20,6 +20,8 @@ Always load `references/core.md` first, then the relevant topic reference:
 | Complete examples | `references/examples.md` |
 | API quick reference tables | `references/api-reference.md` |
 
+Ensure `cadquery` is in the project (`uv add cadquery` if missing).
+
 Visualize the model via the VSCode `ocp-cad-viewer` plugin: ensure `ocp-vscode` is in the project (`uv add ocp-vscode` if missing), then `from ocp_vscode import show; show(obj)`.
 
 Key rules:
