@@ -14,6 +14,8 @@
 - Lean on the dependencies already in the project before writing your own
   implementation or adding packages. Do not assume a library lacks a
   capability without checking its documentation and types.
+- Use uv for Python, never pip, poetry, conda, or pipenv. Use bun for
+  JavaScript and TypeScript, never npm, yarn, pnpm, or npx.
 - Study how established products solve the problem before designing a
   solution. Adopt their proven patterns and conventions rather than
   inventing an approach from scratch.
